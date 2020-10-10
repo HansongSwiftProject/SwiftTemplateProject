@@ -57,6 +57,7 @@
 		41524DBB253162E900A1DEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41524DED25316A3200A1DEED /* UseRxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseRxSwiftVC.swift; sourceTree = "<group>"; };
 		41524EAA2531F16100A1DEED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_DeleteScreenDelegate.md; sourceTree = "<group>"; };
 		6F09BB09CEE8B4F7CF575A5A /* Pods-SwiftTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		8F786ED5C877430FDCB4DEAF /* Pods-SwiftTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9602692F4D490E6068E2D1B5 /* Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				41524EAA2531F16100A1DEED /* README.md */,
+				41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */,
 				41524D96253162E700A1DEED /* SwiftTemplateProject */,
 				41524DAD253162E900A1DEED /* SwiftTemplateProjectTests */,
 				41524DB8253162E900A1DEED /* SwiftTemplateProjectUITests */,
