@@ -1,5 +1,5 @@
 # SwiftTemplateProject
-Swift 模版项目
+Swift 模版项目 无ScreenDelegate
 
 
 ## 集成时使用的第三方
