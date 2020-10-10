@@ -6,8 +6,11 @@ target 'SwiftTemplateProject' do
   use_frameworks!
   
   # Pods for SwiftTemplateProject
+  pod 'Capable'
   pod 'RxSwift'  # https://beeth0ven.github.io/RxSwift-Chinese-Documentation/content/decision_tree.html
   pod 'RxCocoa'
+  pod 'SheetyColors'
+ 
   target 'SwiftTemplateProjectTests' do
     inherit! :search_paths
     # Pods for testing
