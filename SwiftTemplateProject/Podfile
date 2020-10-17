@@ -7,9 +7,11 @@ target 'SwiftTemplateProject' do
   
   # Pods for SwiftTemplateProject
   pod 'Capable'
-  pod 'RxSwift'  # https://beeth0ven.github.io/RxSwift-Chinese-Documentation/content/decision_tree.html
-  pod 'RxCocoa'
+  pod "ESTabBarController-swift"  #tabbar导航 https://github.com/HansongSwiftProject/ESTabBarControlle
+  pod 'RxSwift'  #RxSwift  https://beeth0ven.github.io/RxSwift-Chinese-Documentation/content/decision_tree.html
+  pod 'RxCocoa'  #RxCocca
   pod 'SheetyColors'
+
  
   target 'SwiftTemplateProjectTests' do
     inherit! :search_paths
