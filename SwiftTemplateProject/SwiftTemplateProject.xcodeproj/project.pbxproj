@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		224F121408AC84913CEE693B /* Pods_SwiftTemplateProject_SwiftTemplateProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B50514AAA0D239CAE9976D5 /* Pods_SwiftTemplateProject_SwiftTemplateProjectUITests.framework */; };
 		2641E3CB1243ECC70BD3D460 /* Pods_SwiftTemplateProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24CE65BB2335A25BCB835EB /* Pods_SwiftTemplateProject.framework */; };
+		41163C0625333A5A00F6E45A /* SETabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C0525333A5A00F6E45A /* SETabBarVC.swift */; };
+		41163C1225333B2500F6E45A /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C1125333B2500F6E45A /* AViewController.swift */; };
+		41163C1725333B3C00F6E45A /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C1625333B3C00F6E45A /* BViewController.swift */; };
+		41163C1C25333B6100F6E45A /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C1B25333B6100F6E45A /* CViewController.swift */; };
+		41163C2125333B6700F6E45A /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C2025333B6700F6E45A /* DViewController.swift */; };
+		413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */; };
+		413D27B92535A74700AFCD29 /* templateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B82535A74700AFCD29 /* templateViewController.swift */; };
 		41524D98253162E700A1DEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524D97253162E700A1DEED /* AppDelegate.swift */; };
 		41524D9C253162E800A1DEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524D9B253162E800A1DEED /* ViewController.swift */; };
 		41524D9F253162E800A1DEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41524D9D253162E800A1DEED /* Main.storyboard */; };
@@ -29,6 +36,7 @@
 		41524F012531FF1500A1DEED /* CaptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524F002531FF1500A1DEED /* CaptionsViewController.swift */; };
 		41524F072531FFA300A1DEED /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524F062531FFA300A1DEED /* ColorsViewController.swift */; };
 		41524F1C2532005200A1DEED /* FontsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524F1B2532005200A1DEED /* FontsController.swift */; };
+		419D93882535DD0600D0D657 /* UseThirtyCodeMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */; };
 		C900608CE62EA12C717D90B5 /* Pods_SwiftTemplateProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB1745BA286F2846BA937F /* Pods_SwiftTemplateProjectTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +61,14 @@
 		05CB1745BA286F2846BA937F /* Pods_SwiftTemplateProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTemplateProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B50514AAA0D239CAE9976D5 /* Pods_SwiftTemplateProject_SwiftTemplateProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTemplateProject_SwiftTemplateProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		214BA722AA151D2D6A30829C /* Pods-SwiftTemplateProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41163C0525333A5A00F6E45A /* SETabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SETabBarVC.swift; sourceTree = "<group>"; };
+		41163C0A25333A7000F6E45A /* SwiftTemplateProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftTemplateProject.entitlements; sourceTree = "<group>"; };
+		41163C1125333B2500F6E45A /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
+		41163C1625333B3C00F6E45A /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		41163C1B25333B6100F6E45A /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		41163C2025333B6700F6E45A /* DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRootControllerProvider.swift; sourceTree = "<group>"; };
+		413D27B82535A74700AFCD29 /* templateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templateViewController.swift; sourceTree = "<group>"; };
 		41524D94253162E700A1DEED /* SwiftTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41524D97253162E700A1DEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41524D9B253162E800A1DEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +96,7 @@
 		41524F002531FF1500A1DEED /* CaptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionsViewController.swift; sourceTree = "<group>"; };
 		41524F062531FFA300A1DEED /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		41524F1B2532005200A1DEED /* FontsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsController.swift; sourceTree = "<group>"; };
+		419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UseThirtyCodeMedia.xcassets; sourceTree = "<group>"; };
 		6F09BB09CEE8B4F7CF575A5A /* Pods-SwiftTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		8F786ED5C877430FDCB4DEAF /* Pods-SwiftTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9602692F4D490E6068E2D1B5 /* Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +133,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41163C04253339EE00F6E45A /* UseCode */ = {
+			isa = PBXGroup;
+			children = (
+				41163C0525333A5A00F6E45A /* SETabBarVC.swift */,
+				41163C1125333B2500F6E45A /* AViewController.swift */,
+				41163C1625333B3C00F6E45A /* BViewController.swift */,
+				41163C1B25333B6100F6E45A /* CViewController.swift */,
+				41163C2025333B6700F6E45A /* DViewController.swift */,
+			);
+			path = UseCode;
+			sourceTree = "<group>";
+		};
 		41524D8B253162E700A1DEED = {
 			isa = PBXGroup;
 			children = (
@@ -143,10 +172,15 @@
 		41524D96253162E700A1DEED /* SwiftTemplateProject */ = {
 			isa = PBXGroup;
 			children = (
+				41163C0A25333A7000F6E45A /* SwiftTemplateProject.entitlements */,
+				41163C04253339EE00F6E45A /* UseCode */,
 				41524ED32531F76900A1DEED /* UseStoryBoard */,
 				41524D97253162E700A1DEED /* AppDelegate.swift */,
 				41524D9B253162E800A1DEED /* ViewController.swift */,
 				41524EB02531F51400A1DEED /* SceneDelegate.swift */,
+				413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */,
+				413D27B82535A74700AFCD29 /* templateViewController.swift */,
+				419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */,
 				41524DE1253169B100A1DEED /* userxswift */,
 				41524D9D253162E800A1DEED /* Main.storyboard */,
 				41524DA0253162E800A1DEED /* Assets.xcassets */,
@@ -341,6 +375,7 @@
 			files = (
 				41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */,
 				41524DA4253162E800A1DEED /* LaunchScreen.storyboard in Resources */,
+				419D93882535DD0600D0D657 /* UseThirtyCodeMedia.xcassets in Resources */,
 				41524DA1253162E800A1DEED /* Assets.xcassets in Resources */,
 				41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */,
 				41524EAB2531F16100A1DEED /* README.md in Resources */,
@@ -489,18 +524,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41163C0625333A5A00F6E45A /* SETabBarVC.swift in Sources */,
 				41524F072531FFA300A1DEED /* ColorsViewController.swift in Sources */,
+				413D27B92535A74700AFCD29 /* templateViewController.swift in Sources */,
 				41524EF72531FE5400A1DEED /* ConformanceLevelView.swift in Sources */,
+				41163C2125333B6700F6E45A /* DViewController.swift in Sources */,
 				41524F1C2532005200A1DEED /* FontsController.swift in Sources */,
 				41524D9C253162E800A1DEED /* ViewController.swift in Sources */,
 				41524EE92531FD0B00A1DEED /* FontsConstants.swift in Sources */,
 				41524EDF2531FBD800A1DEED /* FeatureOverviewController.swift in Sources */,
+				41163C1C25333B6100F6E45A /* CViewController.swift in Sources */,
+				41163C1725333B3C00F6E45A /* BViewController.swift in Sources */,
 				41524EE42531FCD800A1DEED /* HandicapViewController.swift in Sources */,
 				41524D98253162E700A1DEED /* AppDelegate.swift in Sources */,
+				413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */,
 				41524EFC2531FEC400A1DEED /* Color+capableGreen.swift in Sources */,
 				41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */,
 				41524EB12531F51400A1DEED /* SceneDelegate.swift in Sources */,
 				41524F012531FF1500A1DEED /* CaptionsViewController.swift in Sources */,
+				41163C1225333B2500F6E45A /* AViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftTemplateProject/SwiftTemplateProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGGNX9596Z;
 				INFOPLIST_FILE = SwiftTemplateProject/Info.plist;
@@ -686,6 +729,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.SwiftTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -697,6 +741,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftTemplateProject/SwiftTemplateProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGGNX9596Z;
 				INFOPLIST_FILE = SwiftTemplateProject/Info.plist;
@@ -706,6 +751,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SexyQueenTeam.SwiftTemplateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

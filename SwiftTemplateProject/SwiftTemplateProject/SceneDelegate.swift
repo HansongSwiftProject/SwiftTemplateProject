@@ -10,15 +10,32 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    let rootIndex:Int8 = 1;
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
-        let story:UIStoryboard? = UIStoryboard.init(name: "BaseStoryboard", bundle: Bundle.main)
-        window?.rootViewController = story?.instantiateInitialViewController()
+        switch rootIndex {
+        case 0:
+           // MARK: storyBoard 实现
+            window?.rootViewController =  HCRootConrollerProvider.storyBoardStyle()
+            break
+        case 1:
+            // MARK: 纯代码实现
+            window?.rootViewController =  HCRootConrollerProvider.systemStyle()
+            break
+        case 2:
+            // MARK: 第三方库实现：ESTabBarController_swift
+            window?.rootViewController =  HCRootConrollerProvider.customStyle()
+            break
+        case 3:
+            // MARK: 第三方库实现：ESTabBarController_swift
+            window?.rootViewController =  HCRootConrollerProvider.mixtureStyle()
+            break
+        default:
+            window?.rootViewController =  HCRootConrollerProvider.storyBoardStyle()
+        }
         window?.makeKeyAndVisible()
     }
 

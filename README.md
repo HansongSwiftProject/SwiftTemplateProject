@@ -21,7 +21,7 @@ pod 'RxTest'
 ## 实现功能
 
 ### UI
-* storyBoard 布局页面
+* storyBoard 布局页面 适配有些问题
 * 代码布局页面
 
 
