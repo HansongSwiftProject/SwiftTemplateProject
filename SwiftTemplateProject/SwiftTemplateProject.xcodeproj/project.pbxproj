@@ -27,6 +27,9 @@
 		413438E1253C4029007BDBDE /* CustomBannerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438E0253C4029007BDBDE /* CustomBannerColors.swift */; };
 		41343996253C7B03007BDBDE /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41343995253C7B03007BDBDE /* MyObject.swift */; };
 		4134399B253C7B9B007BDBDE /* HookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134399A253C7B9B007BDBDE /* HookTest.swift */; };
+		413515ED253DD60000BC0BA3 /* DemoSwiftMathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413515EC253DD60000BC0BA3 /* DemoSwiftMathVC.swift */; };
+		413515F6253DD61900BC0BA3 /* DemoSwiftDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413515F4253DD61900BC0BA3 /* DemoSwiftDateVC.swift */; };
+		413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */; };
 		413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */; };
 		413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */; };
 		413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */; };
@@ -40,6 +43,7 @@
 		41524DBA253162E900A1DEED /* SwiftTemplateProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524DB9253162E900A1DEED /* SwiftTemplateProjectUITests.swift */; };
 		41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524DED25316A3200A1DEED /* UseRxSwiftVC.swift */; };
 		41524EAB2531F16100A1DEED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41524EAA2531F16100A1DEED /* README.md */; };
+		41524EB12531F51400A1DEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524EB02531F51400A1DEED /* SceneDelegate.swift */; };
 		41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41524ED42531F79800A1DEED /* BaseStoryboard.storyboard */; };
 		41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41524ED92531F85000A1DEED /* BaseStoryBoardMedia.xcassets */; };
 		41524EDF2531FBD800A1DEED /* FeatureOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524EDE2531FBD800A1DEED /* FeatureOverviewController.swift */; };
@@ -98,6 +102,10 @@
 		41343914253C5CD6007BDBDE /* README_hidenTabBarNaviBar.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_hidenTabBarNaviBar.md; sourceTree = "<group>"; };
 		41343995253C7B03007BDBDE /* MyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObject.swift; sourceTree = "<group>"; };
 		4134399A253C7B9B007BDBDE /* HookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookTest.swift; sourceTree = "<group>"; };
+		413515E7253DD48000BC0BA3 /* README_SwiftDate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftDate.md; sourceTree = "<group>"; };
+		413515EC253DD60000BC0BA3 /* DemoSwiftMathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftMathVC.swift; sourceTree = "<group>"; };
+		413515F4253DD61900BC0BA3 /* DemoSwiftDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftDateVC.swift; sourceTree = "<group>"; };
+		413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoSwiftDateVC.xib; sourceTree = "<group>"; };
 		413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftMeshDescription.md; sourceTree = "<group>"; };
 		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
 		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 		41524DED25316A3200A1DEED /* UseRxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseRxSwiftVC.swift; sourceTree = "<group>"; };
 		41524EAA2531F16100A1DEED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_DeleteScreenDelegate.md; sourceTree = "<group>"; };
+		41524EB02531F51400A1DEED /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41524ED42531F79800A1DEED /* BaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseStoryboard.storyboard; sourceTree = "<group>"; };
 		41524ED92531F85000A1DEED /* BaseStoryBoardMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BaseStoryBoardMedia.xcassets; sourceTree = "<group>"; };
 		41524EDE2531FBD800A1DEED /* FeatureOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureOverviewController.swift; sourceTree = "<group>"; };
@@ -133,6 +142,11 @@
 		41524F1B2532005200A1DEED /* FontsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsController.swift; sourceTree = "<group>"; };
 		419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UseThirtyCodeMedia.xcassets; sourceTree = "<group>"; };
 		41A91AC5253B11EF008F55F0 /* README_Rswift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Rswift.md; sourceTree = "<group>"; };
+		41D8174A253DC67F00D5E29E /* README_ SwinjectDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_ SwinjectDescription.md"; sourceTree = "<group>"; };
+		41D8174B253DC98300D5E29E /* README_SwiftyUserDefaultsDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftyUserDefaultsDescription.md; sourceTree = "<group>"; };
+		41D8176A253DC9EE00D5E29E /* README_SwiftKeychainWrapper.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftKeychainWrapper.md; sourceTree = "<group>"; };
+		41D817F1253DCCCA00D5E29E /* README_ SwiftLuhn.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_ SwiftLuhn.md"; sourceTree = "<group>"; };
+		41D8183B253DCEC400D5E29E /* README_SwiftGen.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftGen.md; sourceTree = "<group>"; };
 		6F09BB09CEE8B4F7CF575A5A /* Pods-SwiftTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		8F786ED5C877430FDCB4DEAF /* Pods-SwiftTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9602692F4D490E6068E2D1B5 /* Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +201,8 @@
 				4134386D253C0CDE007BDBDE /* Demolist.plist */,
 				41343883253C1555007BDBDE /* DemoTableViewController.swift */,
 				41343872253C1029007BDBDE /* HStools.swift */,
+				413515EB253DD5D700BC0BA3 /* DemoSwiftDate */,
+				41D816D8253DC18300D5E29E /* DemoSwiftMath */,
 				413BAC79253D38B200BDE1F5 /* DemoNetWork */,
 				413438B9253C3ABC007BDBDE /* DemoHook */,
 				413438B8253C3A97007BDBDE /* DemoNotifyBannner */,
@@ -215,6 +231,15 @@
 				41343995253C7B03007BDBDE /* MyObject.swift */,
 			);
 			path = DemoHook;
+			sourceTree = "<group>";
+		};
+		413515EB253DD5D700BC0BA3 /* DemoSwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				413515F4253DD61900BC0BA3 /* DemoSwiftDateVC.swift */,
+				413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */,
+			);
+			path = DemoSwiftDate;
 			sourceTree = "<group>";
 		};
 		413BAC79253D38B200BDE1F5 /* DemoNetWork */ = {
@@ -259,6 +284,7 @@
 				41524ED32531F76900A1DEED /* UseStoryBoard */,
 				41524D97253162E700A1DEED /* AppDelegate.swift */,
 				41524D9B253162E800A1DEED /* ViewController.swift */,
+				41524EB02531F51400A1DEED /* SceneDelegate.swift */,
 				413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */,
 				413D27B82535A74700AFCD29 /* templateViewController.swift */,
 				419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */,
@@ -335,8 +361,22 @@
 				413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */,
 				413BACE2253D618800BDE1F5 /* README_CocoaDebugDescription.md */,
 				413BACF8253D6BF900BDE1F5 /* README_DispatchDescription.md */,
+				41D8174A253DC67F00D5E29E /* README_ SwinjectDescription.md */,
+				41D8174B253DC98300D5E29E /* README_SwiftyUserDefaultsDescription.md */,
+				41D8176A253DC9EE00D5E29E /* README_SwiftKeychainWrapper.md */,
+				41D817F1253DCCCA00D5E29E /* README_ SwiftLuhn.md */,
+				41D8183B253DCEC400D5E29E /* README_SwiftGen.md */,
+				413515E7253DD48000BC0BA3 /* README_SwiftDate.md */,
 			);
 			path = UseDescription;
+			sourceTree = "<group>";
+		};
+		41D816D8253DC18300D5E29E /* DemoSwiftMath */ = {
+			isa = PBXGroup;
+			children = (
+				413515EC253DD60000BC0BA3 /* DemoSwiftMathVC.swift */,
+			);
+			path = DemoSwiftMath;
 			sourceTree = "<group>";
 		};
 		4C72DCB6B9761A37EDBC1ED9 /* Frameworks */ = {
@@ -480,6 +520,7 @@
 				413438CF253C3D74007BDBDE /* Media_Notibannner.xcassets in Resources */,
 				41524DA1253162E800A1DEED /* Assets.xcassets in Resources */,
 				41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */,
+				413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */,
 				41524EAB2531F16100A1DEED /* README.md in Resources */,
 				41524D9F253162E800A1DEED /* Main.storyboard in Resources */,
 			);
@@ -642,6 +683,7 @@
 				413438B3253C3264007BDBDE /* BasicNotificationBannerCell.swift in Sources */,
 				41524EDF2531FBD800A1DEED /* FeatureOverviewController.swift in Sources */,
 				41163C1C25333B6100F6E45A /* CViewController.swift in Sources */,
+				413515F6253DD61900BC0BA3 /* DemoSwiftDateVC.swift in Sources */,
 				41163C1725333B3C00F6E45A /* BViewController.swift in Sources */,
 				41524EE42531FCD800A1DEED /* HandicapViewController.swift in Sources */,
 				41524D98253162E700A1DEED /* AppDelegate.swift in Sources */,
@@ -649,8 +691,10 @@
 				413438BB253C3ADC007BDBDE /* DemoHookVC.swift in Sources */,
 				413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */,
 				41343996253C7B03007BDBDE /* MyObject.swift in Sources */,
+				413515ED253DD60000BC0BA3 /* DemoSwiftMathVC.swift in Sources */,
 				41524EFC2531FEC400A1DEED /* Color+capableGreen.swift in Sources */,
 				41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */,
+				41524EB12531F51400A1DEED /* SceneDelegate.swift in Sources */,
 				41524F012531FF1500A1DEED /* CaptionsViewController.swift in Sources */,
 				413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */,
 				41163C1225333B2500F6E45A /* AViewController.swift in Sources */,

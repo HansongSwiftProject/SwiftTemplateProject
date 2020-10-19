@@ -17,9 +17,35 @@ target 'SwiftTemplateProject' do
   pod 'RxSwift'  #RxSwift  https://beeth0ven.github.io/RxSwift-Chinese-Documentation/content/decision_tree.html
   pod 'RxCocoa'  #RxCocca
   pod 'SheetyColors'
-  pod 'SwiftHook'
-  pod 'SwiftMesh'
   
+  pod 'SwiftDate'
+  
+  pod 'SwiftGen'
+  pod 'SwiftGifOrigin'
+  
+  pod 'SwiftHook'
+  
+  pod 'SwiftKeychainWrapper'
+  
+  pod 'SwiftLint'
+  
+  pod 'SwiftMath'
+  pod 'SwiftMesh'
+  pod 'SwiftMessages'
+  
+  pod "SwiftSpinner"
+  
+  pod 'Swinject'
+#  pod 'SwinjectStoryboard'
+  
+#  pod 'SwiftValidator'
+  
+  pod 'SwiftyBeaver'
+  pod 'SwiftyUserDefaults'
+  pod 'SwiftyTimer'
+  
+  pod 'SwipeCellKit'
+  pod 'SWXMLHash'
   target 'SwiftTemplateProjectTests' do
     inherit! :search_paths
     # Pods for testing
