@@ -10,6 +10,7 @@
 	<array>
 		<string>Hook</string>
 		<string>SwiftMesh</string>
+		<string>SwiftDate</string>
 	</array>
 </dict>
 </plist>
