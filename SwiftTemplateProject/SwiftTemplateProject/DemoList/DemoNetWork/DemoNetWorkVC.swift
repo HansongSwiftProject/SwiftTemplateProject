@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftMesh
+import Alamofire
 //
 struct BaseModel:Codable {
     let body:String
@@ -72,8 +73,33 @@ struct VideoInfoModel:Codable {
     let isVip:Bool
     
 }
-class DemoNetWorkVC: UIViewController {
+struct LoginModel:Codable {
+    let token:String
+    let uid:String
+    let account:String
+    let nickName:String
+    let tel:String
+    let balance:String
+    let goldNumber:String
+    let area:String
+    let age:String
+    let constellation:String
+    let remark:String
+    let praiseNum:String
+    let adPlayTime:String
+    let viewNum:String
+    let viewTime:String
+    let sex:Int
+    let vipTime:String
+    let isVip:Bool
+    let headImage:String
+}
 
+
+class DemoNetWorkVC: UIViewController {
+    
+    var mkLoginModel:LoginModel?
+    
     
     class func setHeader() {
         MeshManager.shared.setGlobalHeaders(["aaa":"bbb"])
@@ -82,7 +108,7 @@ class DemoNetWorkVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         MeshManager.shared.canLogging = true
-        
+   
         
     }
 
@@ -98,21 +124,44 @@ class DemoNetWorkVC: UIViewController {
     }
     
     @IBAction func postRequest(_ sender: UIButton) {
-        //http://172.24.135.204:8011/app/videos/recommendVideos?pageSize=10&pageNum=1
       MeshRequest.post("http://172.24.135.204:8011/app/videos/recommendVideos", parameters: ["pageNum":(1),"pageSize":(10)], modelType:[VideoInfoModel].self, modelKeyPath: "data.list") { (model) in
         print("3333\(String(describing:model?.first))")
         }
-//        DispatchQueue.main.asyncAfter(deadline: .now()+5) {
-//            a?.cancel()
-//        }
     }
     
     @IBAction func uploadRequest(_ sender: UIButton) {
+    //MARK:上传头像
+        // /app/userInfo/uploadImag
+        
+//    //MARK:上传文件
+//        let image = UIImage.init(named:"shop_1")
+//
+//        let data = image?.pngData()
+//
+//        let url  = try? URL.init(from:"http://xxxxx/app/userInfo/uploadImag" as! Decoder)
+//
+//
+//        let config =  MeshMultipartConfig.formData(name:"file" , fileName:"file", fileData: data, fileURL: url, mimeType: "image/png")
+//
+//        let upconfig = MeshConfig.addformData(MeshConfig)
+//
+//
+//    //MARK:上传视频
+//        MeshManager.shared.uploadWithConfig(configBlock:config.self) { (Progress) in
+//            print(Progress)
+//        } success: { (sucessConfig) in
+//            print(sucessConfig)
+//        } failure: { (faliureConfig) in
+//            print(faliureConfig)
+//        }
+        
+            
+            
         
     }
     
     @IBAction func downloadRequest(_ sender: UIButton) {
-        
+    //NARK:下载头像
     }
     
     @IBAction func soapRequest(_ sender: UIButton) {
@@ -130,4 +179,18 @@ class DemoNetWorkVC: UIViewController {
     @IBAction func downloadStreamRequest(_ sender: UIButton) {
         
     }
+    
+    
+    @IBAction func login(_ sender: UIButton) {
+        
+        //MARK:登录
+        //curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' 'http://172.24.135.204:8011/app/login/login?account=hansong&password=123456&originType=0'
+
+        MeshRequest.post("http://172.24.135.204:8011/app/login/login", parameters: ["account":"hansong","password":"123456","originType":0], modelType:LoginModel.self,modelKeyPath: "data") { [unowned self] (model) in
+            print("3333\(String(describing:model))")
+            self.mkLoginModel = model
+        }
+    }
+   
+    
 }

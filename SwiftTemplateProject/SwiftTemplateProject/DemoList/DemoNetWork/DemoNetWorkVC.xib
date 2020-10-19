@@ -23,7 +23,10 @@
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL1-PP-OKC">
                             <rect key="frame" x="0.0" y="0.0" width="52.5" height="30"/>
-                            <state key="normal" title="上传"/>
+                            <state key="normal" title="登录"/>
+                            <connections>
+                                <action selector="login:" destination="-1" eventType="touchUpInside" id="ZBk-JV-bq9"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDh-41-DQT">
                             <rect key="frame" x="72.5" y="0.0" width="52" height="30"/>
