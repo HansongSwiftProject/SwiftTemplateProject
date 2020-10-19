@@ -102,6 +102,7 @@
 		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
 		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
 		413BACE2253D618800BDE1F5 /* README_CocoaDebugDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CocoaDebugDescription.md; sourceTree = "<group>"; };
+		413BACF8253D6BF900BDE1F5 /* README_DispatchDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_DispatchDescription.md; sourceTree = "<group>"; };
 		413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRootControllerProvider.swift; sourceTree = "<group>"; };
 		413D27B82535A74700AFCD29 /* templateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templateViewController.swift; sourceTree = "<group>"; };
 		41524D94253162E700A1DEED /* SwiftTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +334,7 @@
 				41343914253C5CD6007BDBDE /* README_hidenTabBarNaviBar.md */,
 				413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */,
 				413BACE2253D618800BDE1F5 /* README_CocoaDebugDescription.md */,
+				413BACF8253D6BF900BDE1F5 /* README_DispatchDescription.md */,
 			);
 			path = UseDescription;
 			sourceTree = "<group>";
