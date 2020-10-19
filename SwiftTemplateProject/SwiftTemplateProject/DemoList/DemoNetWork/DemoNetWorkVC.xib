@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DemoNetWorkVC" customModule="SwiftTemplateProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e4W-n6-8pr">
+                    <rect key="frame" x="0.0" y="480" width="414" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cL1-PP-OKC">
+                            <rect key="frame" x="0.0" y="0.0" width="52.5" height="30"/>
+                            <state key="normal" title="上传"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDh-41-DQT">
+                            <rect key="frame" x="72.5" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="下载"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTM-aT-v4b">
+                            <rect key="frame" x="144.5" y="0.0" width="52.5" height="30"/>
+                            <state key="normal" title="soap"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLa-Dj-OzH">
+                            <rect key="frame" x="217" y="0.0" width="52.5" height="30"/>
+                            <state key="normal" title="TCP"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qkw-cl-OvV">
+                            <rect key="frame" x="289.5" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="推流"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEl-R4-b5K">
+                            <rect key="frame" x="361.5" y="0.0" width="52.5" height="30"/>
+                            <state key="normal" title="拉流"/>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="D3O-GU-GUo">
+                    <rect key="frame" x="0.0" y="433" width="414" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvA-kz-bdk">
+                            <rect key="frame" x="0.0" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="get"/>
+                            <connections>
+                                <action selector="getRequest:" destination="-1" eventType="touchUpInside" id="x9t-q4-ae7"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9Q-oz-Ltd">
+                            <rect key="frame" x="52" y="0.0" width="51.5" height="30"/>
+                            <state key="normal" title="post"/>
+                            <connections>
+                                <action selector="postRequest:" destination="-1" eventType="touchUpInside" id="bjc-Dj-4rh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MW-c2-sHP">
+                            <rect key="frame" x="103.5" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="上传"/>
+                            <connections>
+                                <action selector="uploadRequest:" destination="-1" eventType="touchUpInside" id="aSz-CM-AtA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZ3-yp-nyf">
+                            <rect key="frame" x="155.5" y="0.0" width="51.5" height="30"/>
+                            <state key="normal" title="下载"/>
+                            <connections>
+                                <action selector="downloadRequest:" destination="-1" eventType="touchUpInside" id="9au-jq-aqG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZi-Lz-bOI">
+                            <rect key="frame" x="207" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="soap"/>
+                            <connections>
+                                <action selector="soapRequest:" destination="-1" eventType="touchUpInside" id="2Lz-Ek-O2u"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paq-fa-fZ3">
+                            <rect key="frame" x="259" y="0.0" width="51.5" height="30"/>
+                            <state key="normal" title="TCP"/>
+                            <connections>
+                                <action selector="TcpRequest:" destination="-1" eventType="touchUpInside" id="1O8-Mw-9Vc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8O-2k-kqX">
+                            <rect key="frame" x="310.5" y="0.0" width="52" height="30"/>
+                            <state key="normal" title="推流"/>
+                            <connections>
+                                <action selector="uploadStreamRequest:" destination="-1" eventType="touchUpInside" id="5zN-44-hEk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydq-V6-8h3">
+                            <rect key="frame" x="362.5" y="0.0" width="51.5" height="30"/>
+                            <state key="normal" title="拉流"/>
+                            <connections>
+                                <action selector="downloadStreamRequest:" destination="-1" eventType="touchUpInside" id="SFG-zG-8zG"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="D3O-GU-GUo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="KfA-VL-v5g"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="D3O-GU-GUo" secondAttribute="trailing" id="LeG-Mg-D7W"/>
+                <constraint firstItem="D3O-GU-GUo" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="ODS-qr-jeF"/>
+                <constraint firstItem="e4W-n6-8pr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="436" id="VPT-Oh-Fjb"/>
+                <constraint firstItem="e4W-n6-8pr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="bhh-sG-5xf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="e4W-n6-8pr" secondAttribute="trailing" id="dNC-Qv-qMg"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="140.57971014492756" y="77.678571428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

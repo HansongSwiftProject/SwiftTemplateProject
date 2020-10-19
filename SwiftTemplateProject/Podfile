@@ -7,12 +7,19 @@ target 'SwiftTemplateProject' do
   
   # Pods for SwiftTemplateProject
   pod 'Capable'
+  pod 'CocoaDebug', :configurations => ['Debug']
   pod "ESTabBarController-swift"  #tabbar导航 https://github.com/HansongSwiftProject/ESTabBarControlle
+  pod 'EasySwiftHook'
+  
+  pod 'NotificationBannerSwift'
+  pod 'R.swift' #https://github.com/mac-cain13/R.swift
+  pod 'R.swift.Library'#https://github.com/mac-cain13/R.swift.Library
   pod 'RxSwift'  #RxSwift  https://beeth0ven.github.io/RxSwift-Chinese-Documentation/content/decision_tree.html
   pod 'RxCocoa'  #RxCocca
   pod 'SheetyColors'
-
- 
+  pod 'SwiftHook'
+  pod 'SwiftMesh'
+  
   target 'SwiftTemplateProjectTests' do
     inherit! :search_paths
     # Pods for testing

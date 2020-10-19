@@ -6,11 +6,22 @@
 //
 
 import UIKit
-
+#if DEBUG
+    import CocoaDebug
+#endif
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        #if DEBUG
+            //If Use Google's Protocol buffers
+            CocoaDebug.protobufTransferMap = [
+                                             "your_api_keywords_1": ["your_request_protobuf_className_1", "your_response_protobuf_className_1"],
+                                             "your_api_keywords_2": ["your_request_protobuf_className_2", "your_response_protobuf_className_2"],
+                                             "your_api_keywords_3": ["your_request_protobuf_className_3", "your_response_protobuf_className_3"]
+                                             ]
+            CocoaDebug.enable()
+        #endif
         return true
     }
 

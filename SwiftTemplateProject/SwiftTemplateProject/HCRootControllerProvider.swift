@@ -65,7 +65,7 @@ enum HCRootConrollerProvider {
     //MARK: 混合
     static  func mixtureStyle() ->ESTabBarController{
         let tabBarController = ESTabBarController()
-        let v1 = templateViewController()
+        let v1 = UINavigationController(rootViewController: DemoTableViewController())
         let v2 = templateViewController()
         let v3 = templateViewController()
         let v4 = templateViewController()
