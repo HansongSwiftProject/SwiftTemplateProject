@@ -25,6 +25,7 @@ class SETabBarVC: UITabBarController {
         mTabBar.items?.append(createTabBarItems(title: "Fonts", imag:#imageLiteral(resourceName: "pencil") , index: 2))
         mTabBar.items?.append(createTabBarItems(title: "Colors", imag:#imageLiteral(resourceName: "colors") , index: 3))
         mTabBar.items?.append(createTabBarItems(title: "Captions", imag: #imageLiteral(resourceName: "image.pdf"), index: 4))
+        viewControllers = [AViewController.init(),BViewController.init(),CViewController.init(),DViewController.init()]
     }
     
     

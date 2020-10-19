@@ -14,6 +14,21 @@
 		41163C1725333B3C00F6E45A /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C1625333B3C00F6E45A /* BViewController.swift */; };
 		41163C1C25333B6100F6E45A /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C1B25333B6100F6E45A /* CViewController.swift */; };
 		41163C2125333B6700F6E45A /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41163C2025333B6700F6E45A /* DViewController.swift */; };
+		4134386E253C0CDE007BDBDE /* Demolist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4134386D253C0CDE007BDBDE /* Demolist.plist */; };
+		41343873253C1029007BDBDE /* HStools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41343872253C1029007BDBDE /* HStools.swift */; };
+		41343884253C1555007BDBDE /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41343883253C1555007BDBDE /* DemoTableViewController.swift */; };
+		413438A7253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438A5253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.swift */; };
+		413438A8253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413438A6253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib */; };
+		413438AE253C2F38007BDBDE /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438AD253C2F38007BDBDE /* ExampleView.swift */; };
+		413438B3253C3264007BDBDE /* BasicNotificationBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438B2253C3264007BDBDE /* BasicNotificationBannerCell.swift */; };
+		413438BB253C3ADC007BDBDE /* DemoHookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438BA253C3ADC007BDBDE /* DemoHookVC.swift */; };
+		413438CA253C3D3F007BDBDE /* NorthCarolinaBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438C9253C3D3F007BDBDE /* NorthCarolinaBannerView.swift */; };
+		413438CF253C3D74007BDBDE /* Media_Notibannner.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413438CE253C3D74007BDBDE /* Media_Notibannner.xcassets */; };
+		413438E1253C4029007BDBDE /* CustomBannerColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413438E0253C4029007BDBDE /* CustomBannerColors.swift */; };
+		41343996253C7B03007BDBDE /* MyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41343995253C7B03007BDBDE /* MyObject.swift */; };
+		4134399B253C7B9B007BDBDE /* HookTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134399A253C7B9B007BDBDE /* HookTest.swift */; };
+		413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */; };
+		413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */; };
 		413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */; };
 		413D27B92535A74700AFCD29 /* templateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B82535A74700AFCD29 /* templateViewController.swift */; };
 		41524D98253162E700A1DEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524D97253162E700A1DEED /* AppDelegate.swift */; };
@@ -66,6 +81,27 @@
 		41163C1625333B3C00F6E45A /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		41163C1B25333B6100F6E45A /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
 		41163C2025333B6700F6E45A /* DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		4134386D253C0CDE007BDBDE /* Demolist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Demolist.plist; sourceTree = "<group>"; };
+		41343872253C1029007BDBDE /* HStools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStools.swift; sourceTree = "<group>"; };
+		41343877253C11F0007BDBDE /* README_CodeDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CodeDescription.md; sourceTree = "<group>"; };
+		41343883253C1555007BDBDE /* DemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
+		41343889253C2BDA007BDBDE /* README_NotificationBannerSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_NotificationBannerSwift.md; sourceTree = "<group>"; };
+		413438A5253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNotificationBannerSwiftVC.swift; sourceTree = "<group>"; };
+		413438A6253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNotificationBannerSwiftVC.xib; sourceTree = "<group>"; };
+		413438AD253C2F38007BDBDE /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		413438B2253C3264007BDBDE /* BasicNotificationBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNotificationBannerCell.swift; sourceTree = "<group>"; };
+		413438BA253C3ADC007BDBDE /* DemoHookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHookVC.swift; sourceTree = "<group>"; };
+		413438C5253C3BB0007BDBDE /* README_SwiftKeyWordDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftKeyWordDescription.md; sourceTree = "<group>"; };
+		413438C9253C3D3F007BDBDE /* NorthCarolinaBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthCarolinaBannerView.swift; sourceTree = "<group>"; };
+		413438CE253C3D74007BDBDE /* Media_Notibannner.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media_Notibannner.xcassets; sourceTree = "<group>"; };
+		413438E0253C4029007BDBDE /* CustomBannerColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBannerColors.swift; sourceTree = "<group>"; };
+		41343914253C5CD6007BDBDE /* README_hidenTabBarNaviBar.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_hidenTabBarNaviBar.md; sourceTree = "<group>"; };
+		41343995253C7B03007BDBDE /* MyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObject.swift; sourceTree = "<group>"; };
+		4134399A253C7B9B007BDBDE /* HookTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HookTest.swift; sourceTree = "<group>"; };
+		413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftMeshDescription.md; sourceTree = "<group>"; };
+		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
+		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
+		413BACE2253D618800BDE1F5 /* README_CocoaDebugDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CocoaDebugDescription.md; sourceTree = "<group>"; };
 		413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCRootControllerProvider.swift; sourceTree = "<group>"; };
 		413D27B82535A74700AFCD29 /* templateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templateViewController.swift; sourceTree = "<group>"; };
 		41524D94253162E700A1DEED /* SwiftTemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +131,7 @@
 		41524F062531FFA300A1DEED /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		41524F1B2532005200A1DEED /* FontsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsController.swift; sourceTree = "<group>"; };
 		419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UseThirtyCodeMedia.xcassets; sourceTree = "<group>"; };
+		41A91AC5253B11EF008F55F0 /* README_Rswift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Rswift.md; sourceTree = "<group>"; };
 		6F09BB09CEE8B4F7CF575A5A /* Pods-SwiftTemplateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.release.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.release.xcconfig"; sourceTree = "<group>"; };
 		8F786ED5C877430FDCB4DEAF /* Pods-SwiftTemplateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		9602692F4D490E6068E2D1B5 /* Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,11 +180,56 @@
 			path = UseCode;
 			sourceTree = "<group>";
 		};
+		4134386C253C0C93007BDBDE /* DemoList */ = {
+			isa = PBXGroup;
+			children = (
+				4134386D253C0CDE007BDBDE /* Demolist.plist */,
+				41343883253C1555007BDBDE /* DemoTableViewController.swift */,
+				41343872253C1029007BDBDE /* HStools.swift */,
+				413BAC79253D38B200BDE1F5 /* DemoNetWork */,
+				413438B9253C3ABC007BDBDE /* DemoHook */,
+				413438B8253C3A97007BDBDE /* DemoNotifyBannner */,
+			);
+			path = DemoList;
+			sourceTree = "<group>";
+		};
+		413438B8253C3A97007BDBDE /* DemoNotifyBannner */ = {
+			isa = PBXGroup;
+			children = (
+				413438A5253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.swift */,
+				413438A6253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib */,
+				413438AD253C2F38007BDBDE /* ExampleView.swift */,
+				413438B2253C3264007BDBDE /* BasicNotificationBannerCell.swift */,
+				413438C9253C3D3F007BDBDE /* NorthCarolinaBannerView.swift */,
+				413438E0253C4029007BDBDE /* CustomBannerColors.swift */,
+				413438CE253C3D74007BDBDE /* Media_Notibannner.xcassets */,
+			);
+			path = DemoNotifyBannner;
+			sourceTree = "<group>";
+		};
+		413438B9253C3ABC007BDBDE /* DemoHook */ = {
+			isa = PBXGroup;
+			children = (
+				413438BA253C3ADC007BDBDE /* DemoHookVC.swift */,
+				41343995253C7B03007BDBDE /* MyObject.swift */,
+			);
+			path = DemoHook;
+			sourceTree = "<group>";
+		};
+		413BAC79253D38B200BDE1F5 /* DemoNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */,
+				413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */,
+			);
+			path = DemoNetWork;
+			sourceTree = "<group>";
+		};
 		41524D8B253162E700A1DEED = {
 			isa = PBXGroup;
 			children = (
+				41A91AC4253B11BA008F55F0 /* UseDescription */,
 				41524EAA2531F16100A1DEED /* README.md */,
-				41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */,
 				41524D96253162E700A1DEED /* SwiftTemplateProject */,
 				41524DAD253162E900A1DEED /* SwiftTemplateProjectTests */,
 				41524DB8253162E900A1DEED /* SwiftTemplateProjectUITests */,
@@ -170,6 +252,7 @@
 		41524D96253162E700A1DEED /* SwiftTemplateProject */ = {
 			isa = PBXGroup;
 			children = (
+				4134386C253C0C93007BDBDE /* DemoList */,
 				41163C0A25333A7000F6E45A /* SwiftTemplateProject.entitlements */,
 				41163C04253339EE00F6E45A /* UseCode */,
 				41524ED32531F76900A1DEED /* UseStoryBoard */,
@@ -191,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				41524DAE253162E900A1DEED /* SwiftTemplateProjectTests.swift */,
+				4134399A253C7B9B007BDBDE /* HookTest.swift */,
 				41524DB0253162E900A1DEED /* Info.plist */,
 			);
 			path = SwiftTemplateProjectTests;
@@ -238,6 +322,21 @@
 			path = iPhone;
 			sourceTree = "<group>";
 		};
+		41A91AC4253B11BA008F55F0 /* UseDescription */ = {
+			isa = PBXGroup;
+			children = (
+				41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */,
+				41A91AC5253B11EF008F55F0 /* README_Rswift.md */,
+				41343877253C11F0007BDBDE /* README_CodeDescription.md */,
+				41343889253C2BDA007BDBDE /* README_NotificationBannerSwift.md */,
+				413438C5253C3BB0007BDBDE /* README_SwiftKeyWordDescription.md */,
+				41343914253C5CD6007BDBDE /* README_hidenTabBarNaviBar.md */,
+				413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */,
+				413BACE2253D618800BDE1F5 /* README_CocoaDebugDescription.md */,
+			);
+			path = UseDescription;
+			sourceTree = "<group>";
+		};
 		4C72DCB6B9761A37EDBC1ED9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +371,7 @@
 				41524D90253162E700A1DEED /* Sources */,
 				41524D91253162E700A1DEED /* Frameworks */,
 				41524D92253162E700A1DEED /* Resources */,
-				3ACDB2E510618F4F64343DAC /* [CP] Embed Pods Frameworks */,
+				297CC8079899CCF4C360BE25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,7 +390,7 @@
 				41524DA6253162E900A1DEED /* Sources */,
 				41524DA7253162E900A1DEED /* Frameworks */,
 				41524DA8253162E900A1DEED /* Resources */,
-				F9007D83535E5C66441477CF /* [CP] Embed Pods Frameworks */,
+				3F955D0E81DB3C6D2C8E47FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,7 +410,7 @@
 				41524DB1253162E900A1DEED /* Sources */,
 				41524DB2253162E900A1DEED /* Frameworks */,
 				41524DB3253162E900A1DEED /* Resources */,
-				AA1E74870DF1AE907EC66859 /* [CP] Embed Pods Frameworks */,
+				3E196D60BB7E3DFB8E899EF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -371,8 +470,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */,
+				413438A8253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib in Resources */,
+				4134386E253C0CDE007BDBDE /* Demolist.plist in Resources */,
 				41524DA4253162E800A1DEED /* LaunchScreen.storyboard in Resources */,
+				413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */,
 				419D93882535DD0600D0D657 /* UseThirtyCodeMedia.xcassets in Resources */,
+				413438CF253C3D74007BDBDE /* Media_Notibannner.xcassets in Resources */,
 				41524DA1253162E800A1DEED /* Assets.xcassets in Resources */,
 				41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */,
 				41524EAB2531F16100A1DEED /* README.md in Resources */,
@@ -397,7 +500,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3ACDB2E510618F4F64343DAC /* [CP] Embed Pods Frameworks */ = {
+		297CC8079899CCF4C360BE25 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +515,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E196D60BB7E3DFB8E899EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F955D0E81DB3C6D2C8E47FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		54E12FE4C3D6A573F461C8E4 /* [CP] Check Pods Manifest.lock */ = {
@@ -480,40 +617,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA1E74870DF1AE907EC66859 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9007D83535E5C66441477CF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProjectTests/Pods-SwiftTemplateProjectTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -521,23 +624,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413438CA253C3D3F007BDBDE /* NorthCarolinaBannerView.swift in Sources */,
+				41343884253C1555007BDBDE /* DemoTableViewController.swift in Sources */,
 				41163C0625333A5A00F6E45A /* SETabBarVC.swift in Sources */,
 				41524F072531FFA300A1DEED /* ColorsViewController.swift in Sources */,
+				413438E1253C4029007BDBDE /* CustomBannerColors.swift in Sources */,
+				413438AE253C2F38007BDBDE /* ExampleView.swift in Sources */,
 				413D27B92535A74700AFCD29 /* templateViewController.swift in Sources */,
 				41524EF72531FE5400A1DEED /* ConformanceLevelView.swift in Sources */,
 				41163C2125333B6700F6E45A /* DViewController.swift in Sources */,
 				41524F1C2532005200A1DEED /* FontsController.swift in Sources */,
 				41524D9C253162E800A1DEED /* ViewController.swift in Sources */,
+				413438A7253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.swift in Sources */,
 				41524EE92531FD0B00A1DEED /* FontsConstants.swift in Sources */,
+				413438B3253C3264007BDBDE /* BasicNotificationBannerCell.swift in Sources */,
 				41524EDF2531FBD800A1DEED /* FeatureOverviewController.swift in Sources */,
 				41163C1C25333B6100F6E45A /* CViewController.swift in Sources */,
 				41163C1725333B3C00F6E45A /* BViewController.swift in Sources */,
 				41524EE42531FCD800A1DEED /* HandicapViewController.swift in Sources */,
 				41524D98253162E700A1DEED /* AppDelegate.swift in Sources */,
+				41343873253C1029007BDBDE /* HStools.swift in Sources */,
+				413438BB253C3ADC007BDBDE /* DemoHookVC.swift in Sources */,
 				413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */,
+				41343996253C7B03007BDBDE /* MyObject.swift in Sources */,
 				41524EFC2531FEC400A1DEED /* Color+capableGreen.swift in Sources */,
 				41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */,
 				41524F012531FF1500A1DEED /* CaptionsViewController.swift in Sources */,
+				413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */,
 				41163C1225333B2500F6E45A /* AViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4134399B253C7B9B007BDBDE /* HookTest.swift in Sources */,
 				41524DAF253162E900A1DEED /* SwiftTemplateProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
