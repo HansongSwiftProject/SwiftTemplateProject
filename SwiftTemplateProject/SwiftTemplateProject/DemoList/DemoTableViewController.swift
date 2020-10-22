@@ -63,6 +63,8 @@ class DemoTableViewController: UITableViewController {
             classSectionSkip_DemoNetWorkVC()
         case "SwiftDate":
             classSectionSkip_SwiftDate()
+        case "SwiftLuhn":
+            classSectionSkip_SwiftLuhn()
         default:
             break
         }
@@ -100,6 +102,12 @@ class DemoTableViewController: UITableViewController {
     func classSectionSkip_SwiftDate(){
         //MARK: 用Xib做视图渲染，避免之前隐藏了navibar，子页面轻点有会出现navibar
         let demo =  DemoSwiftDateVC.init(nibName: "DemoSwiftDateVC", bundle: Bundle.main)
+        demo.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(demo, animated: true)
+    }
+    func classSectionSkip_SwiftLuhn(){
+        //MARK:
+        let demo =  DemoSwiftLuhnVC()
         demo.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(demo, animated: true)
     }

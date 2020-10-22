@@ -11,6 +11,7 @@
 		<string>Hook</string>
 		<string>SwiftMesh</string>
 		<string>SwiftDate</string>
+		<string>SwiftLuhn</string>
 	</array>
 </dict>
 </plist>

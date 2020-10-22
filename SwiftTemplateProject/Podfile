@@ -30,7 +30,7 @@ target 'SwiftTemplateProject' do
   pod 'SwiftKeychainWrapper'
   
   pod 'SwiftLint'
-  
+  pod 'SwiftLuhn'
   pod 'SwiftMath'
   pod 'SwiftMesh'
   pod 'SwiftMessages'
