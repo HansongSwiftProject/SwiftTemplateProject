@@ -106,6 +106,8 @@
 		413515EC253DD60000BC0BA3 /* DemoSwiftMathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftMathVC.swift; sourceTree = "<group>"; };
 		413515F4253DD61900BC0BA3 /* DemoSwiftDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftDateVC.swift; sourceTree = "<group>"; };
 		413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoSwiftDateVC.xib; sourceTree = "<group>"; };
+		4135959925415EDD00F92F22 /* README_Instabug .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_Instabug .md"; sourceTree = "<group>"; };
+		41359649254168A100F92F22 /* README_Sentry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Sentry.md; sourceTree = "<group>"; };
 		413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftMeshDescription.md; sourceTree = "<group>"; };
 		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
 		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
@@ -367,6 +369,8 @@
 				41D817F1253DCCCA00D5E29E /* README_ SwiftLuhn.md */,
 				41D8183B253DCEC400D5E29E /* README_SwiftGen.md */,
 				413515E7253DD48000BC0BA3 /* README_SwiftDate.md */,
+				4135959925415EDD00F92F22 /* README_Instabug .md */,
+				41359649254168A100F92F22 /* README_Sentry.md */,
 			);
 			path = UseDescription;
 			sourceTree = "<group>";
