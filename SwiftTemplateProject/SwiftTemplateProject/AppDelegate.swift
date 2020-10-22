@@ -9,8 +9,8 @@ import UIKit
 
 #if DEBUG
     import CocoaDebug
-//    import Instabug
-//    import Sentry
+    import Instabug
+    import Sentry
 #endif
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,12 +28,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             "your_api_keywords_3": ["your_request_protobuf_className_3", "your_response_protobuf_className_3"]
         ]
         CocoaDebug.enable()
-//        Instabug.start(withToken: "fdd41cf135c918166b830c654a0064d6", invocationEvents: [.shake])
-//        
-//        SentrySDK.start { Options in
-//            Options.dsn = "https://915d22a708914aea89200968a5d9fb28@o465418.ingest.sentry.io/5477975"
-//            Options.debug = true
-//        }
+        Instabug.start(withToken: "fdd41cf135c918166b830c654a0064d6", invocationEvents: [.shake,.floatingButton,.rightEdgePan,.screenshot,.twoFingersSwipeLeft])
+        
+        SentrySDK.start { Options in
+            Options.dsn = "https://915d22a708914aea89200968a5d9fb28@o465418.ingest.sentry.io/5477975"
+            Options.debug = true
+        }
 //        SentrySDK.capture(message: "My first test message")
         //        SentrySDK.crash()
         #endif
