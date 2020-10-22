@@ -30,6 +30,7 @@
 		413515ED253DD60000BC0BA3 /* DemoSwiftMathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413515EC253DD60000BC0BA3 /* DemoSwiftMathVC.swift */; };
 		413515F6253DD61900BC0BA3 /* DemoSwiftDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413515F4253DD61900BC0BA3 /* DemoSwiftDateVC.swift */; };
 		413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */; };
+		413597E02541BEA900F92F22 /* DemoSwiftLuhnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */; };
 		413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */; };
 		413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */; };
 		413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */; };
@@ -107,6 +108,7 @@
 		413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoSwiftDateVC.xib; sourceTree = "<group>"; };
 		4135959925415EDD00F92F22 /* README_Instabug .md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_Instabug .md"; sourceTree = "<group>"; };
 		41359649254168A100F92F22 /* README_Sentry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Sentry.md; sourceTree = "<group>"; };
+		413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftLuhnVC.swift; sourceTree = "<group>"; };
 		413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftMeshDescription.md; sourceTree = "<group>"; };
 		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
 		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				4134386D253C0CDE007BDBDE /* Demolist.plist */,
 				41343883253C1555007BDBDE /* DemoTableViewController.swift */,
 				41343872253C1029007BDBDE /* HStools.swift */,
+				413597DE2541BE8300F92F22 /* DemoSwiftLuhn */,
 				413515EB253DD5D700BC0BA3 /* DemoSwiftDate */,
 				41D816D8253DC18300D5E29E /* DemoSwiftMath */,
 				413BAC79253D38B200BDE1F5 /* DemoNetWork */,
@@ -240,6 +243,14 @@
 				413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */,
 			);
 			path = DemoSwiftDate;
+			sourceTree = "<group>";
+		};
+		413597DE2541BE8300F92F22 /* DemoSwiftLuhn */ = {
+			isa = PBXGroup;
+			children = (
+				413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */,
+			);
+			path = DemoSwiftLuhn;
 			sourceTree = "<group>";
 		};
 		413BAC79253D38B200BDE1F5 /* DemoNetWork */ = {
@@ -672,6 +683,7 @@
 				41343884253C1555007BDBDE /* DemoTableViewController.swift in Sources */,
 				41163C0625333A5A00F6E45A /* SETabBarVC.swift in Sources */,
 				41524F072531FFA300A1DEED /* ColorsViewController.swift in Sources */,
+				413597E02541BEA900F92F22 /* DemoSwiftLuhnVC.swift in Sources */,
 				413438E1253C4029007BDBDE /* CustomBannerColors.swift in Sources */,
 				413438AE253C2F38007BDBDE /* ExampleView.swift in Sources */,
 				413D27B92535A74700AFCD29 /* templateViewController.swift in Sources */,
