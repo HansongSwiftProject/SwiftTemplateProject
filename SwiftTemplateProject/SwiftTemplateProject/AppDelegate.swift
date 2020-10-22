@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                              "your_api_keywords_3": ["your_request_protobuf_className_3", "your_response_protobuf_className_3"]
                                              ]
             CocoaDebug.enable()
-        Instabug.start(withToken: "fdd41cf135c918166b830c654a0064d6", invocationEvents: [.shake])
+        Instabug.start(withToken: "fdd41cf135c918166b830c654a0064d6", invocationEvents: [.shake,.screenshot,.twoFingersSwipeLeft,.rightEdgePan,.floatingButton])
         
         SentrySDK.start { Options in
             Options.dsn = "https://915d22a708914aea89200968a5d9fb28@o465418.ingest.sentry.io/5477975"
