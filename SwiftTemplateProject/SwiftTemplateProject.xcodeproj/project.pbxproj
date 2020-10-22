@@ -43,7 +43,6 @@
 		41524DBA253162E900A1DEED /* SwiftTemplateProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524DB9253162E900A1DEED /* SwiftTemplateProjectUITests.swift */; };
 		41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524DED25316A3200A1DEED /* UseRxSwiftVC.swift */; };
 		41524EAB2531F16100A1DEED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41524EAA2531F16100A1DEED /* README.md */; };
-		41524EB12531F51400A1DEED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524EB02531F51400A1DEED /* SceneDelegate.swift */; };
 		41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41524ED42531F79800A1DEED /* BaseStoryboard.storyboard */; };
 		41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41524ED92531F85000A1DEED /* BaseStoryBoardMedia.xcassets */; };
 		41524EDF2531FBD800A1DEED /* FeatureOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41524EDE2531FBD800A1DEED /* FeatureOverviewController.swift */; };
@@ -131,7 +130,6 @@
 		41524DED25316A3200A1DEED /* UseRxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseRxSwiftVC.swift; sourceTree = "<group>"; };
 		41524EAA2531F16100A1DEED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		41524EAF2531F2E900A1DEED /* README_DeleteScreenDelegate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_DeleteScreenDelegate.md; sourceTree = "<group>"; };
-		41524EB02531F51400A1DEED /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		41524ED42531F79800A1DEED /* BaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BaseStoryboard.storyboard; sourceTree = "<group>"; };
 		41524ED92531F85000A1DEED /* BaseStoryBoardMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BaseStoryBoardMedia.xcassets; sourceTree = "<group>"; };
 		41524EDE2531FBD800A1DEED /* FeatureOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureOverviewController.swift; sourceTree = "<group>"; };
@@ -286,7 +284,6 @@
 				41524ED32531F76900A1DEED /* UseStoryBoard */,
 				41524D97253162E700A1DEED /* AppDelegate.swift */,
 				41524D9B253162E800A1DEED /* ViewController.swift */,
-				41524EB02531F51400A1DEED /* SceneDelegate.swift */,
 				413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */,
 				413D27B82535A74700AFCD29 /* templateViewController.swift */,
 				419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */,
@@ -417,7 +414,7 @@
 				41524D90253162E700A1DEED /* Sources */,
 				41524D91253162E700A1DEED /* Frameworks */,
 				41524D92253162E700A1DEED /* Resources */,
-				297CC8079899CCF4C360BE25 /* [CP] Embed Pods Frameworks */,
+				D0BD36165437EB0CDE4BF924 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -436,7 +433,7 @@
 				41524DA6253162E900A1DEED /* Sources */,
 				41524DA7253162E900A1DEED /* Frameworks */,
 				41524DA8253162E900A1DEED /* Resources */,
-				3F955D0E81DB3C6D2C8E47FD /* [CP] Embed Pods Frameworks */,
+				4D7058083CE4033A11385185 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -456,7 +453,7 @@
 				41524DB1253162E900A1DEED /* Sources */,
 				41524DB2253162E900A1DEED /* Frameworks */,
 				41524DB3253162E900A1DEED /* Resources */,
-				3E196D60BB7E3DFB8E899EF9 /* [CP] Embed Pods Frameworks */,
+				13401F1C8CE681442FC6318E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -547,24 +544,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		297CC8079899CCF4C360BE25 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E196D60BB7E3DFB8E899EF9 /* [CP] Embed Pods Frameworks */ = {
+		13401F1C8CE681442FC6318E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -581,7 +561,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests/Pods-SwiftTemplateProject-SwiftTemplateProjectUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F955D0E81DB3C6D2C8E47FD /* [CP] Embed Pods Frameworks */ = {
+		4D7058083CE4033A11385185 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -664,6 +644,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D0BD36165437EB0CDE4BF924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTemplateProject/Pods-SwiftTemplateProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -698,7 +695,6 @@
 				413515ED253DD60000BC0BA3 /* DemoSwiftMathVC.swift in Sources */,
 				41524EFC2531FEC400A1DEED /* Color+capableGreen.swift in Sources */,
 				41524DEE25316A3200A1DEED /* UseRxSwiftVC.swift in Sources */,
-				41524EB12531F51400A1DEED /* SceneDelegate.swift in Sources */,
 				41524F012531FF1500A1DEED /* CaptionsViewController.swift in Sources */,
 				413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */,
 				41163C1225333B2500F6E45A /* AViewController.swift in Sources */,
