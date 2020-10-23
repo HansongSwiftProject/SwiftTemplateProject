@@ -270,9 +270,7 @@
 		4135985C2541C6C600F92F22 /* DemogifLoad */ = {
 			isa = PBXGroup;
 			children = (
-				4135985E2541C6FF00F92F22 /* earth.gif */,
 				413598602541C6FF00F92F22 /* mugen.gif */,
-				4135985F2541C6FF00F92F22 /* nailed.gif */,
 				413598672541C71400F92F22 /* DemoGifVC.swift */,
 				413598682541C71400F92F22 /* DemoGifVC.xib */,
 			);
@@ -552,7 +550,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */,
-				413598622541C6FF00F92F22 /* nailed.gif in Resources */,
 				4135986A2541C71400F92F22 /* DemoGifVC.xib in Resources */,
 				413598632541C6FF00F92F22 /* mugen.gif in Resources */,
 				413438A8253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib in Resources */,
@@ -561,7 +558,6 @@
 				413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */,
 				419D93882535DD0600D0D657 /* UseThirtyCodeMedia.xcassets in Resources */,
 				413438CF253C3D74007BDBDE /* Media_Notibannner.xcassets in Resources */,
-				413598612541C6FF00F92F22 /* earth.gif in Resources */,
 				41524DA1253162E800A1DEED /* Assets.xcassets in Resources */,
 				41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */,
 				413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */,
