@@ -212,15 +212,15 @@
 			isa = PBXGroup;
 			children = (
 				4135985C2541C6C600F92F22 /* DemogifLoad */,
+				413438B9253C3ABC007BDBDE /* DemoHook */,
 				4134386D253C0CDE007BDBDE /* Demolist.plist */,
+				413BAC79253D38B200BDE1F5 /* DemoNetWork */,
+				413438B8253C3A97007BDBDE /* DemoNotifyBannner */,
+				413515EB253DD5D700BC0BA3 /* DemoSwiftDate */,
+				413597DE2541BE8300F92F22 /* DemoSwiftLuhn */,
+				41D816D8253DC18300D5E29E /* DemoSwiftMath */,
 				41343883253C1555007BDBDE /* DemoTableViewController.swift */,
 				41343872253C1029007BDBDE /* HStools.swift */,
-				413597DE2541BE8300F92F22 /* DemoSwiftLuhn */,
-				413515EB253DD5D700BC0BA3 /* DemoSwiftDate */,
-				41D816D8253DC18300D5E29E /* DemoSwiftMath */,
-				413BAC79253D38B200BDE1F5 /* DemoNetWork */,
-				413438B9253C3ABC007BDBDE /* DemoHook */,
-				413438B8253C3A97007BDBDE /* DemoNotifyBannner */,
 			);
 			path = DemoList;
 			sourceTree = "<group>";

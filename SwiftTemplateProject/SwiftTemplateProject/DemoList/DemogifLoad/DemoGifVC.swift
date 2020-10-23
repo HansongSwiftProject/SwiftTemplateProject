@@ -7,8 +7,10 @@
 
 import UIKit
 import Gifu
+import SwiftGifOrigin
 class DemoGifVC: UIViewController {
 
+    @IBOutlet weak var imageView2: UIImageView!
     @IBOutlet weak var imageView: GIFImageView!
     var currentGIFName: String =  "mugen"  {
       didSet {
@@ -23,6 +25,7 @@ class DemoGifVC: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView2.loadGif(name: "mugen")
 
     }
     func animate() {
