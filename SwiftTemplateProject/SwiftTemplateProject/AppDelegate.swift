@@ -14,7 +14,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
-
+    let rootIndex:Int8 = 3;
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Override point for customization after application launch.
@@ -35,6 +35,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SentrySDK.capture(message: "My first test message")
 //        SentrySDK.crash()
         #endif
+        
+        switch rootIndex {
+        case 0:
+           // MARK: storyBoard 实现
+            window?.rootViewController =  HCRootConrollerProvider.storyBoardStyle()
+            break
+        case 1:
+            // MARK: 纯代码实现
+            window?.rootViewController =  HCRootConrollerProvider.systemStyle()
+            break
+        case 2:
+            // MARK: 第三方库实现：ESTabBarController_swift
+            window?.rootViewController =  HCRootConrollerProvider.customStyle()
+            break
+        case 3:
+            // MARK: 第三方库实现：ESTabBarController_swift
+            window?.rootViewController =  HCRootConrollerProvider.mixtureStyle()
+            break
+        default:
+            window?.rootViewController =  HCRootConrollerProvider.storyBoardStyle()
+        }
+        window?.makeKeyAndVisible()
         return true
     }
 
