@@ -65,11 +65,17 @@ class DemoTableViewController: UITableViewController {
             classSectionSkip_SwiftDate()
         case "SwiftLuhn":
             classSectionSkip_SwiftLuhn()
+        case "Gif":
+            classSectionSkip_SwiftGif()
         default:
             break
         }
     }
-    
+    func classSectionSkip_SwiftGif(){
+        let demo =  DemoGifVC.init(nibName: "DemoGifVC", bundle: Bundle.main)
+        demo.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(demo, animated: true)
+    }
 
     func classSectionSkip_NotificationBannerSwift(){
         if navigationController == nil {

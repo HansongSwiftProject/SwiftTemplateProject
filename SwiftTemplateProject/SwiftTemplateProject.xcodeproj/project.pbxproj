@@ -32,6 +32,11 @@
 		413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */; };
 		413597E02541BEA900F92F22 /* DemoSwiftLuhnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */; };
 		413598202541C4D100F92F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4135981F2541C4D100F92F22 /* SceneDelegate.swift */; };
+		413598612541C6FF00F92F22 /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4135985E2541C6FF00F92F22 /* earth.gif */; };
+		413598622541C6FF00F92F22 /* nailed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4135985F2541C6FF00F92F22 /* nailed.gif */; };
+		413598632541C6FF00F92F22 /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413598602541C6FF00F92F22 /* mugen.gif */; };
+		413598692541C71400F92F22 /* DemoGifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413598672541C71400F92F22 /* DemoGifVC.swift */; };
+		4135986A2541C71400F92F22 /* DemoGifVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413598682541C71400F92F22 /* DemoGifVC.xib */; };
 		413BAC7D253D3AD400BDE1F5 /* DemoNetWorkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */; };
 		413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */; };
 		413D27B42535A3F000AFCD29 /* HCRootControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D27B32535A3F000AFCD29 /* HCRootControllerProvider.swift */; };
@@ -111,6 +116,12 @@
 		41359649254168A100F92F22 /* README_Sentry.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Sentry.md; sourceTree = "<group>"; };
 		413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftLuhnVC.swift; sourceTree = "<group>"; };
 		4135981F2541C4D100F92F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4135982A2541C5C200F92F22 /* README_Gif.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Gif.md; sourceTree = "<group>"; };
+		4135985E2541C6FF00F92F22 /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = "<group>"; };
+		4135985F2541C6FF00F92F22 /* nailed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nailed.gif; sourceTree = "<group>"; };
+		413598602541C6FF00F92F22 /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
+		413598672541C71400F92F22 /* DemoGifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGifVC.swift; sourceTree = "<group>"; };
+		413598682541C71400F92F22 /* DemoGifVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoGifVC.xib; sourceTree = "<group>"; };
 		413BAC7A253D39E300BDE1F5 /* README_SwiftMeshDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftMeshDescription.md; sourceTree = "<group>"; };
 		413BAC7B253D3AD400BDE1F5 /* DemoNetWorkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoNetWorkVC.swift; sourceTree = "<group>"; };
 		413BAC7C253D3AD400BDE1F5 /* DemoNetWorkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoNetWorkVC.xib; sourceTree = "<group>"; };
@@ -202,6 +213,7 @@
 		4134386C253C0C93007BDBDE /* DemoList */ = {
 			isa = PBXGroup;
 			children = (
+				4135985C2541C6C600F92F22 /* DemogifLoad */,
 				4134386D253C0CDE007BDBDE /* Demolist.plist */,
 				41343883253C1555007BDBDE /* DemoTableViewController.swift */,
 				41343872253C1029007BDBDE /* HStools.swift */,
@@ -253,6 +265,18 @@
 				413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */,
 			);
 			path = DemoSwiftLuhn;
+			sourceTree = "<group>";
+		};
+		4135985C2541C6C600F92F22 /* DemogifLoad */ = {
+			isa = PBXGroup;
+			children = (
+				4135985E2541C6FF00F92F22 /* earth.gif */,
+				413598602541C6FF00F92F22 /* mugen.gif */,
+				4135985F2541C6FF00F92F22 /* nailed.gif */,
+				413598672541C71400F92F22 /* DemoGifVC.swift */,
+				413598682541C71400F92F22 /* DemoGifVC.xib */,
+			);
+			path = DemogifLoad;
 			sourceTree = "<group>";
 		};
 		413BAC79253D38B200BDE1F5 /* DemoNetWork */ = {
@@ -382,6 +406,7 @@
 				413515E7253DD48000BC0BA3 /* README_SwiftDate.md */,
 				4135959925415EDD00F92F22 /* README_Instabug .md */,
 				41359649254168A100F92F22 /* README_Sentry.md */,
+				4135982A2541C5C200F92F22 /* README_Gif.md */,
 			);
 			path = UseDescription;
 			sourceTree = "<group>";
@@ -527,12 +552,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				41524EDA2531F85000A1DEED /* BaseStoryBoardMedia.xcassets in Resources */,
+				413598622541C6FF00F92F22 /* nailed.gif in Resources */,
+				4135986A2541C71400F92F22 /* DemoGifVC.xib in Resources */,
+				413598632541C6FF00F92F22 /* mugen.gif in Resources */,
 				413438A8253C2DEC007BDBDE /* DemoNotificationBannerSwiftVC.xib in Resources */,
 				4134386E253C0CDE007BDBDE /* Demolist.plist in Resources */,
 				41524DA4253162E800A1DEED /* LaunchScreen.storyboard in Resources */,
 				413BAC7E253D3AD400BDE1F5 /* DemoNetWorkVC.xib in Resources */,
 				419D93882535DD0600D0D657 /* UseThirtyCodeMedia.xcassets in Resources */,
 				413438CF253C3D74007BDBDE /* Media_Notibannner.xcassets in Resources */,
+				413598612541C6FF00F92F22 /* earth.gif in Resources */,
 				41524DA1253162E800A1DEED /* Assets.xcassets in Resources */,
 				41524ED52531F79800A1DEED /* BaseStoryboard.storyboard in Resources */,
 				413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */,
@@ -683,6 +712,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				413438CA253C3D3F007BDBDE /* NorthCarolinaBannerView.swift in Sources */,
+				413598692541C71400F92F22 /* DemoGifVC.swift in Sources */,
 				41343884253C1555007BDBDE /* DemoTableViewController.swift in Sources */,
 				41163C0625333A5A00F6E45A /* SETabBarVC.swift in Sources */,
 				41524F072531FFA300A1DEED /* ColorsViewController.swift in Sources */,

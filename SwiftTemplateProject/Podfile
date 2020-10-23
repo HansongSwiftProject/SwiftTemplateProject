@@ -11,6 +11,7 @@ target 'SwiftTemplateProject' do
   pod 'DateToolsSwift'
   pod "ESTabBarController-swift"  #tabbar导航 https://github.com/HansongSwiftProject/ESTabBarControlle
   pod 'EasySwiftHook'
+  pod 'Gifu'
   pod 'Instabug' # https://dashboard.instabug.com/welcome-to-instabug
   pod 'NotificationBannerSwift'
   pod 'R.swift' #https://github.com/mac-cain13/R.swift
@@ -24,6 +25,7 @@ target 'SwiftTemplateProject' do
   
   pod 'SwiftGen'
   pod 'SwiftGifOrigin'
+  
   
   pod 'SwiftHook'
   
