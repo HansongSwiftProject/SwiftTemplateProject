@@ -8,6 +8,7 @@ target 'SwiftTemplateProject' do
   # Pods for SwiftTemplateProject
   pod 'Capable'
   pod 'CocoaDebug', :configurations => ['Debug']
+  pod 'Crossroad'
   pod 'DateToolsSwift'
   pod "ESTabBarController-swift"  #tabbar导航 https://github.com/HansongSwiftProject/ESTabBarControlle
   pod 'EasySwiftHook'

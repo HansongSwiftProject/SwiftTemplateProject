@@ -32,8 +32,6 @@
 		413515F7253DD61900BC0BA3 /* DemoSwiftDateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413515F5253DD61900BC0BA3 /* DemoSwiftDateVC.xib */; };
 		413597E02541BEA900F92F22 /* DemoSwiftLuhnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */; };
 		413598202541C4D100F92F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4135981F2541C4D100F92F22 /* SceneDelegate.swift */; };
-		413598612541C6FF00F92F22 /* earth.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4135985E2541C6FF00F92F22 /* earth.gif */; };
-		413598622541C6FF00F92F22 /* nailed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4135985F2541C6FF00F92F22 /* nailed.gif */; };
 		413598632541C6FF00F92F22 /* mugen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 413598602541C6FF00F92F22 /* mugen.gif */; };
 		413598692541C71400F92F22 /* DemoGifVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413598672541C71400F92F22 /* DemoGifVC.swift */; };
 		4135986A2541C71400F92F22 /* DemoGifVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413598682541C71400F92F22 /* DemoGifVC.xib */; };
@@ -117,8 +115,6 @@
 		413597DF2541BEA900F92F22 /* DemoSwiftLuhnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftLuhnVC.swift; sourceTree = "<group>"; };
 		4135981F2541C4D100F92F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4135982A2541C5C200F92F22 /* README_Gif.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Gif.md; sourceTree = "<group>"; };
-		4135985E2541C6FF00F92F22 /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = earth.gif; sourceTree = "<group>"; };
-		4135985F2541C6FF00F92F22 /* nailed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nailed.gif; sourceTree = "<group>"; };
 		413598602541C6FF00F92F22 /* mugen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mugen.gif; sourceTree = "<group>"; };
 		413598672541C71400F92F22 /* DemoGifVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoGifVC.swift; sourceTree = "<group>"; };
 		413598682541C71400F92F22 /* DemoGifVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoGifVC.xib; sourceTree = "<group>"; };
@@ -157,6 +153,7 @@
 		41524F1B2532005200A1DEED /* FontsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsController.swift; sourceTree = "<group>"; };
 		419D93872535DD0600D0D657 /* UseThirtyCodeMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = UseThirtyCodeMedia.xcassets; sourceTree = "<group>"; };
 		41A91AC5253B11EF008F55F0 /* README_Rswift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_Rswift.md; sourceTree = "<group>"; };
+		41CB0C20254C4D5F00C7FD23 /* README_CrossLoader.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CrossLoader.md; sourceTree = "<group>"; };
 		41D8174A253DC67F00D5E29E /* README_ SwinjectDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README_ SwinjectDescription.md"; sourceTree = "<group>"; };
 		41D8174B253DC98300D5E29E /* README_SwiftyUserDefaultsDescription.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftyUserDefaultsDescription.md; sourceTree = "<group>"; };
 		41D8176A253DC9EE00D5E29E /* README_SwiftKeychainWrapper.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_SwiftKeychainWrapper.md; sourceTree = "<group>"; };
@@ -405,6 +402,7 @@
 				4135959925415EDD00F92F22 /* README_Instabug .md */,
 				41359649254168A100F92F22 /* README_Sentry.md */,
 				4135982A2541C5C200F92F22 /* README_Gif.md */,
+				41CB0C20254C4D5F00C7FD23 /* README_CrossLoader.md */,
 			);
 			path = UseDescription;
 			sourceTree = "<group>";
