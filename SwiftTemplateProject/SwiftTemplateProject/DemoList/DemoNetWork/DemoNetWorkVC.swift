@@ -192,5 +192,10 @@ class DemoNetWorkVC: UIViewController {
         }
     }
    
+    @IBAction func moyaNetwork(_ sender: UIButton) {
+        let demo =  DemoMoyaNetworkVC.init(nibName: "DemoMoyaNetworkVC", bundle: Bundle.main)
+        demo.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(demo, animated: true)
+    }
     
 }
